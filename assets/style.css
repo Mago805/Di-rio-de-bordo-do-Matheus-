@@ -1,42 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
-
 :root {
-    --text-color: #fed500;
-    --card-front-color: #fed500;
-    --card-back-color: #fed500;
+    --text-color: #000; /* Preto */
+    --card-front-color: #ff0000; /* Vermelho */
+    --card-back-color: #fed500; /* Amarelo */
 }
 
-body{
+body {
     background: url('img/bg-desktop-violet.webp');
-    font-family: Bai Jamjuree;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
-#container{
+#container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 3rem;
 }
 
-.cartao{
+.cartao {
     margin: 1rem 1rem;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
 
-.cartao__conteudo{
-    background-color: var(--card-front-color);
+.cartao__conteudo {
+    background-color: var(--card-front-color); /* Vermelho na frente */
     text-align: center;
-    /*background-color: aquamarine;*/
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
 }
 
-.cartao__conteudo h3{
-    color: var(--text-color);
-    border: 1px solid var(--text-color);
+.cartao__conteudo h3 {
+    color: var(--text-color); /* Texto preto */
+    border: 1px solid var(--text-color); /* Borda preta */
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -46,36 +43,37 @@ body{
     backface-visibility: hidden;
 }
 
-.cartao__conteudo p{
+.cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
 }
 
-.cartao__conteudo__pergunta p{
-    color: var(--text-color);
+.cartao__conteudo__pergunta p {
+    color: var(--text-color); /* Texto preto */
     font-weight: 500;
 }
 
-.cartao__conteudo__resposta p{
-    color: var(--card-back-color);
+.cartao__conteudo__resposta p {
+    color: var(--card-back-color); /* Texto amarelo */
     font-weight: 700;
 }
 
-.cartao.active .cartao__conteudo{
+.cartao.active .cartao__conteudo {
     transform: rotateY(180deg);   
 }
 
 .cartao__conteudo__pergunta, 
-.cartao__conteudo__resposta{
+.cartao__conteudo__resposta {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
     width: 100%;
 }
 
-.cartao__conteudo__resposta{
+.cartao__conteudo__resposta {
     transform: rotateY(180deg);
+    background-color: var(--card-back-color); /* Amarelo no verso */
 }
 
 .cartao__imagem img {
@@ -84,7 +82,7 @@ body{
     margin-top: 1px;
 }
 
-footer{
+footer {
     background-color: black;
     color: white;
     position: fixed;
@@ -93,7 +91,7 @@ footer{
     height: 2rem;
 }
 
-footer p{
+footer p {
     text-align: center;
     font-size: 0.6rem;
     margin-top: 0.5rem;
