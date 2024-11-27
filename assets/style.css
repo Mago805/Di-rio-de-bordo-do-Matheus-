@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
 
 :root {
-    --text-color: #000;
-    --card-front-color: #000000;
-    --card-back-color: #000000;
+    --text-color: #DBE4EF;
+    --card-front-color: #48427a;
+    --card-back-color: #bf94f1;
 }
 
 body{
-    background: url('https://static.vecteezy.com/ti/vetor-gratis/t1/19605306-bandeira-da-alemanha-pais-nacao-simbolo-3d-textil-cetim-efeito-fundo-papel-de-parede-vetor.jpg');
+    background: url('img/bg-desktop-violet.webp');
     font-family: Bai Jamjuree;
 }
 
