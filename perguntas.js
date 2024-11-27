@@ -6,13 +6,13 @@ criaCartao(
 
 criaCartao(
     'Custo da Viagem', 
-    'Qual foi o custo total dessa viagem por pessoa e qual a modalidade de aquisição?', 
-    'Fomos via pacote da CVC por 30.664,49 convertido para Euro ficou 4906,32. Nós ficamos em um hotel bem centralizado em Berlim para poder passear em todos o pontos turisticos gratuitos.'
+    'Qual foi o custo total dessa viagem ?', 
+    'Fomos via pacote da CVC para 3 pessoas por 30.664,49 reais, convertido para euro ficou 4.906,32. Nós ficamos em um hotel bem centralizado em Berlim para poder passear em todos o pontos turisticos gratuitos.'
 )
 
 criaCartao(
     'Fato Curioso', 
-    'Uma curiosidade sobre cidade/ponto turístico/país cisitado!', 
+    'Uma curiosidade sobre a Alemanha!', 
     'A Alemanha é famosa por sua tradição cervejeira, com mais de 1.300 cervejarias, e pela Oktoberfest, a maior festa de cerveja do mundo, realizada em Munique. Além disso, o conceito de "Gemütlichkeit" reflete um sentimento acolhedor e confortável, associado à convivência agradável, boa comida e bebida, sendo um aspecto importante da cultura social alemã.'
 )
 
@@ -30,6 +30,6 @@ criaCartao(
 
 criaCartao(
     'Ponto de Vista', 
-    'O que eu achei da viagem para ...?', 
+    'O que eu achei da viagem para Berlim?', 
     'Em nossa visita a Berlim foi incrível! A cidade combina história e modernidade de forma única. Fiquei encantado com a grandiosidade do Portão de Brandemburgo e a beleza arquitetônica do Berliner Dom. A experiência foi enriquecida pela gastronomia local: os doces krapfen foram perfeitos para um lanche da tarde, enquanto os pretzels eram ideais para um dia de caminhada pela cidade..'
 )
