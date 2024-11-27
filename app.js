@@ -30,5 +30,5 @@ criaCartao(
     'Álbum de fotos', 
     'Minhas memórias!', 
     'Fotos da viagem.',
-    'https://thumbs.dreamstime.com/b/colagem-de-alemanha-63698377.jpg'
+    'https://st.depositphotos.com/1005603/3065/i/950/depositphotos_30650077-stock-photo-impressions-of-berlin.jpg'
 );
