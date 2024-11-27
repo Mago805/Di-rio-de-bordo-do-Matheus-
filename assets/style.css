@@ -1,5 +1,5 @@
 :root {
-    --text-color: #000; /* Preto */
+    --text-color: #ffffff; /* Branco, para garantir contraste */
     --card-front-color: #ff0000; /* Vermelho */
     --card-back-color: #fed500; /* Amarelo */
 }
@@ -32,8 +32,8 @@ body {
 }
 
 .cartao__conteudo h3 {
-    color: var(--text-color); /* Texto preto */
-    border: 1px solid var(--text-color); /* Borda preta */
+    color: var(--text-color); /* Texto branco */
+    border: 1px solid var(--text-color); /* Borda branca */
     text-align: left;
     padding: 0.5rem;
     position: absolute;
@@ -41,21 +41,23 @@ body {
     border-radius: 0.6rem;
     font-size: 1vw;
     backface-visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semi-transparente para melhor legibilidade */
 }
 
 .cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
+    color: var(--text-color); /* Texto branco para maior visibilidade */
 }
 
 .cartao__conteudo__pergunta p {
-    color: var(--text-color); /* Texto preto */
+    color: var(--text-color); /* Texto branco */
     font-weight: 500;
 }
 
 .cartao__conteudo__resposta p {
-    color: var(--card-back-color); /* Texto amarelo */
+    color: #000000; /* Texto preto para o verso */
     font-weight: 700;
 }
 
