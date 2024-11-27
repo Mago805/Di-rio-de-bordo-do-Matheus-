@@ -29,6 +29,6 @@ function criaCartao(categoria, pergunta, resposta, imagem) {
 criaCartao(
     'Álbum de fotos', 
     'Minhas memórias!', 
-    'Aqui está a montagem das suas fotos.',
-    'file:///C:/Users/magob/Downloads/Design%20sem%20nome.png'
+    'Fotos da viagem.',
+    'https://thumbs.dreamstime.com/b/colagem-de-alemanha-63698377.jpg'
 );
